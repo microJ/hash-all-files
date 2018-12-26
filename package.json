@@ -1,0 +1,21 @@
+{
+  "name": "hash-all-files",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "git@github.com:microJ/hash-all-files.git",
+  "author": "microJ",
+  "license": "MIT",
+  "description": "get all file hash. 获取所有文件的 hash.",
+  "keywords": [
+    "file hash",
+    "文件hash",
+    "图片hash"
+  ],
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "fs-readdir-recursive": "^1.1.0"
+  },
+  "scripts": {
+    "test": "node ./test/"
+  }
+}
