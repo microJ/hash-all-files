@@ -15,6 +15,7 @@ log(
   hashAllFile({
     projectPath: "./",
     folderPath: "./test/",
+    hashLength: 4,
     filter(file) {
       return /\.png$/.test(file)
     }
