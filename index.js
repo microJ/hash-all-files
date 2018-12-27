@@ -1,5 +1,5 @@
 const { getHash, joinHash } = require("./hash")
-const { consoleError } = require("./utils")
+const { consoleError, joinPath } = require("./utils")
 const readdir = require("fs-readdir-recursive")
 const path = require("path")
 
@@ -21,7 +21,7 @@ const getAllHash = ({
         fileKey = fileKey.split(sep).join("/")
       }
       const filePathWithHash = joinHash(fileKey, getHash(filePath, hashLength))
-      result[fileKey] = filePathWithHash
+      result[joinPath(fileKey)] = joinPath(filePathWithHash)
     })
   } catch (err) {
     consoleError(err)

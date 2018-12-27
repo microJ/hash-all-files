@@ -56,14 +56,14 @@ Default value is `8`.
 console:
 
 ```js
-{ '/test/a.png': '/test/a.d41d8cd9.png',
-  '/test/folder1/666.txt': '/test/folder1/666.fae0b27c.txt',
-  '/test/folder1/b.png': '/test/folder1/b.d41d8cd9.png',
-  '/test/folder1/c.jpg': '/test/folder1/c.d41d8cd9.jpg',
-  '/test/index.js': '/test/index.254a638c.js' }
+{ 'test/a.png': 'test/a.d41d8cd9.png',
+  'test/folder1/666.txt': 'test/folder1/666.fae0b27c.txt',
+  'test/folder1/b.png': 'test/folder1/b.d41d8cd9.png',
+  'test/folder1/c.jpg': 'test/folder1/c.d41d8cd9.jpg',
+  'test/index.js': 'test/index.254a638c.js' }
 
- { '/test/a.png': '/test/a.d41d.png',
-  '/test/folder1/b.png': '/test/folder1/b.d41d.png' }
+ { 'test/a.png': 'test/a.d41d.png',
+  'test/folder1/b.png': 'test/folder1/b.d41d.png' }
 
  {}
 ```
